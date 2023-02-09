@@ -1,1 +1,1 @@
-ls: script that switches the current user to the user betty
+id -u -n: script that prints the effective username of the current user.
