@@ -1,1 +1,1 @@
-groups: script that prints all the groups the current user is part of.
+script that adds execute permission to the owner and the group
