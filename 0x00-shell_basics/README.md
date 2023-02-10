@@ -1,1 +1,1 @@
-rm -r /tmp/my_first_directory:Delete the directory my_first_directory that is in the /tmp directory.
+ln -s /bin/ls __ls__:Create a symbolic link to /bin/ls, named __ls__
