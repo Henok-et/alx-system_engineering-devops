@@ -1,1 +1,1 @@
-chown vincent:staff *: script that changes the owner to vincent and the group owner to staff for all 
+chown --from=guillaume betty hello: script that changes the owner of the file hello to betty only if it is owned by the user guillaume
