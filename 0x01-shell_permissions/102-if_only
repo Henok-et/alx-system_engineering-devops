@@ -1,2 +1,2 @@
 #!/bin/bash
-chrown --from=guillaume betty 
+chrown --from=betty 
