@@ -1,3 +1,1 @@
- rm /tmp/my_first_directory/betty
-
-:Delete the file betty.
+mkdir /tmp/my_first_directory:script that creates a directory named my_first_directory in the /tmp/ directory.
