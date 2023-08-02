@@ -1,6 +1,6 @@
 # 0x08. Networking basics #1
 # Done by: Temesgen Abdissa
-# Describtion Networking basics #1 DevOps Network SysAdmin
+# Describtion About  Networking basics #1 DevOps Network SysAdmin
 # Networking Basics
 Networking basics are the fundamental principles and concepts that underpin the communication and data exchange between devices and systems in a network. This includes understanding IP addresses, subnetting, routing protocols, and networking hardware such as switches and routers. Networking enables devices to connect to the internet and share resources, making it an essential aspect of modern technology and the backbone of the digital world. With a solid grasp of networking basics, IT professionals can design, manage, and troubleshoot complex networks, ensuring efficient data flow and seamless connectivity for users and organizations.
 
