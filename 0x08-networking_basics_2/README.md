@@ -1,0 +1,8 @@
+# 0x08. Networking basics #1
+# Done by: Temesgen Abdissa
+# Describtion Networking basics #1 DevOps Network SysAdmin
+# Networking Basics
+Networking basics are the fundamental principles and concepts that underpin the communication and data exchange between devices and systems in a network. This includes understanding IP addresses, subnetting, routing protocols, and networking hardware such as switches and routers. Networking enables devices to connect to the internet and share resources, making it an essential aspect of modern technology and the backbone of the digital world. With a solid grasp of networking basics, IT professionals can design, manage, and troubleshoot complex networks, ensuring efficient data flow and seamless connectivity for users and organizations.
+
+# DevOps, Network, and SysAdmin
+DevOps is a collaborative approach that integrates software development (Dev) and IT operations (Ops) to streamline the software delivery process. In this context, networking plays a crucial role in ensuring that applications are accessible and perform optimally. DevOps teams need to work closely with network administrators (SysAdmins) to deploy and scale applications while maintaining network reliability and security. SysAdmins, in turn, manage the day-to-day operation and maintenance of network infrastructure, ensuring that networks are up and running efficiently. The synergy between DevOps, network professionals, and SysAdmins is vital for creating a well-coordinated and robust IT ecosystem that supports the smooth functioning of applications and services in today's interconnected world.
