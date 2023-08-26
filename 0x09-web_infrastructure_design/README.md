@@ -1,5 +1,7 @@
 # 0x09. Web infrastructure design
 # Done by : Temesgen Abdissa
+# URL 1. https://docs.google.com/document/d/1iSijjZMtsIL1h75vqslQIRQonu4y-7LT0YJt0eVO_nM/edit
+
 # Project overview 
 Project 0x09 revolves around the intricate domain of web infrastructure design, interweaving essential elements from the realms of DevOps and System Administration. At its core, this project delves into the meticulous orchestration of technology, bridging the gap between development and operations to construct robust digital architectures. By synergizing the art of DevOps with the science of SysAdmin, it navigates the challenges of scalability, security, and performance optimization inherent to web ecosystems. It's a captivating journey where meticulous planning converges with real-time adaptability, ensuring the seamless flow of data, applications, and services, ultimately fostering an efficient and resilient web infrastructure that's ready to meet the demands of today's dynamic digital landscape.
 # Requirements
