@@ -3,7 +3,8 @@
 # URL 1. https://docs.google.com/document/d/1iSijjZMtsIL1h75vqslQIRQonu4y-7LT0YJt0eVO_nM/edit
 # URL 2. https://docs.google.com/document/d/1ag8qYKf_bJRmB6iaTr3th-APx4w7ys-NrqycEexDBRY/edit
 # URL 3. https://docs.google.com/document/d/1eaDISQBgudRw3bOlG7PbQxbjdKLj5x_fUBWcylkBz1A/edit
-# URL 4. 
+# URL 4.  3-scale_up - Google Docs
+
 
 # Project overview 
 Project 0x09 revolves around the intricate domain of web infrastructure design, interweaving essential elements from the realms of DevOps and System Administration. At its core, this project delves into the meticulous orchestration of technology, bridging the gap between development and operations to construct robust digital architectures. By synergizing the art of DevOps with the science of SysAdmin, it navigates the challenges of scalability, security, and performance optimization inherent to web ecosystems. It's a captivating journey where meticulous planning converges with real-time adaptability, ensuring the seamless flow of data, applications, and services, ultimately fostering an efficient and resilient web infrastructure that's ready to meet the demands of today's dynamic digital landscape.
