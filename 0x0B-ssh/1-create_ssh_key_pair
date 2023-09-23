@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Create a new ssh key (type=rsa, bits=4096, name=school, passphrase=betty)
-ssh-keygen -t rsa -b 4096 -f school -N betty
+# Generating SSH key-pairs according to Task requirements
+
+ssh-keygen -t rsa -b 4096 -P betty -f school
