@@ -1,29 +1,7 @@
 #!/usr/bin/env bash
-# Customizing a 404-error_page
-
-# Updating Packages before performing installations
-sudo apt-get update
-sudo apt-get install -y nginx
-
-# Creating an index.html page
-echo "Hello World!" | sudo tee /var/www/html/index.html
-
-# Performing a "moved permanently redirection" (301)
-new_string="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/TEMESGENABDISSA  permanent;"
-sudo sed -i "s/server_name _;/$new_string/" /etc/nginx/sites-enabled/default
-
-# Creating a 404 Custom error page
-echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
-new_string="listen 80 default_server;\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
-
-sudo sed -i "s/listen 80 default_server;/$new_string/" /etc/nginx/sites-enabled/default
-
-# Creating an HTTP response header
-sudo sed -i "/server_name _/a add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-enabled/default
-
-# Testing configurations for syntax errors
-sudo nginx -t
-
-# Restart nginx after implementing changes
-sudo service nginx restart
-
+#Double the number of webservers
+sudo apt update
+sudo apt install haproxy -y
+#sudo wget -q -O /etc/nginx/nginx.conf https://exampleconfig.com/static/raw/nginx/ubuntu20.04/etc/nginx/nginx.conf
+sudo sh -c 'echo "\nlisten myserver\n\tbind *:80\n\tbalance roundrobin\n\tserver server1 102634-web-01 54.144.147.110:80 check\n\tserver server2  102634-web-02 35.153.79.54:80 check\n" >> /etc/haproxy/haproxy.cfg'
+sudo service haproxy restart
