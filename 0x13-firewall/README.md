@@ -1,0 +1,4 @@
+# 0x13. Firewall
+# Done by :Temesgen Abdissa
+# project overview
+Project 0x13, aptly named "Firewall DevOps SysAdmin Security," is a multifaceted initiative aimed at enhancing the security infrastructure of servers 102634-web-01 and 102634-web-02, with a keen focus on load balancer 102634-lb-01. This ambitious project represents a collaborative effort between DevOps and SysAdmin teams to fortify the server environment against potential threats and vulnerabilities. By implementing robust firewall configurations and comprehensive security measures, this project strives to create a resilient shield around the servers, safeguarding them from unauthorized access, malicious attacks, and ensuring the continuity of critical web services while maintaining optimal performance. The combination of these efforts underscores a proactive and holistic approach to server security that will undoubtedly bolster the overall reliability and resilience of the infrastructure.
