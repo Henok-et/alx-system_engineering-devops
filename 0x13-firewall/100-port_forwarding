@@ -1,15 +1,17 @@
-# port_forwarding
+#
 # rules.before
+#
 # Rules that should be run before the ufw command line added rules. Custom
-# rules should be added to one of these given  chains:
+# rules should be added to one of these chains:
 #   ufw-before-input
 #   ufw-before-output
 #   ufw-before-forward
+#
 *nat
 :PREROUTING ACCEPT [0:0]
 -A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
-COMMIT -m ""
-# Don't delete  required lines, otherwise there will be errors
+COMMIT
+# Don't delete these required lines, otherwise there will be errors
 *filter
 :ufw-before-input - [0:0]
 :ufw-before-output - [0:0]
@@ -33,14 +35,12 @@ COMMIT -m ""
 
 # ok icmp codes for INPUT
 -A ufw-before-input -p icmp --icmp-type destination-unreachable -j ACCEPT
--A ufw-before-input -p icmp --icmp-type source-quench -j ACCEPT
 -A ufw-before-input -p icmp --icmp-type time-exceeded -j ACCEPT
 -A ufw-before-input -p icmp --icmp-type parameter-problem -j ACCEPT
 -A ufw-before-input -p icmp --icmp-type echo-request -j ACCEPT
 
 # ok icmp code for FORWARD
 -A ufw-before-forward -p icmp --icmp-type destination-unreachable -j ACCEPT
--A ufw-before-forward -p icmp --icmp-type source-quench -j ACCEPT
 -A ufw-before-forward -p icmp --icmp-type time-exceeded -j ACCEPT
 -A ufw-before-forward -p icmp --icmp-type parameter-problem -j ACCEPT
 -A ufw-before-forward -p icmp --icmp-type echo-request -j ACCEPT
@@ -75,5 +75,4 @@ COMMIT -m ""
 -A ufw-before-input -p udp -d 239.255.255.250 --dport 1900 -j ACCEPT
 
 # don't delete the 'COMMIT' line or these rules won't be processed
-COMMIT -m ""
-
+COMMIT
