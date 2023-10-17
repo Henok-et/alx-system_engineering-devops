@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Creates & runs whoami command as specified of user
-sudo -u "$1" whoami
+# Run software from  user
+
+sudo -u $1 whoami
