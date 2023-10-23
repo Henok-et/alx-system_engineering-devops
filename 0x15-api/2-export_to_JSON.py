@@ -1,6 +1,5 @@
-#!/usr/bin/python3
-"""exports to-do list data in JSON format for a specified employee ID.
-"""
+#!/usr/bin/python
+"""exports to-do list data in JSON format for a specified employee ID."""
 import json
 import requests
 import sys
