@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 """
-A sript that, uses a REST API, for a given employee ID, returns
-information about his/her TODO list progress
-and exports data in the JSON format.
+A script that exports data in JSON format and utilizes a REST API
+to return details about the status of an employee's to-do list for a specified employee ID.
 """
 
 import json
