@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """
- doc for the given module
+doc for module
 """
 import requests
+
 headers = {"User-Agent": "MyCustomUserAgent/1.0"}
+
 
 def number_of_subscribers(subreddit):
     """method doc"""
@@ -14,4 +16,3 @@ def number_of_subscribers(subreddit):
         return data["data"]["subscribers"]
     else:
         return 0
-
