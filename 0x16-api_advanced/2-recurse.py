@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Use the  reddit's API
+Use reddit's API
 """
 import requests
 after = None
@@ -26,4 +26,3 @@ def recurse(subreddit, hot_list=[]):
         return hot_list
     else:
         return (None)
-
